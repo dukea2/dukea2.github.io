@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Macondo+Swash+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+*::before, *::after{
+    box-sizing: border-box;
+}
+
+#wrapper {
+    background-color: #cca677;
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+
+#title {
+    text-align: left;
+    margin-left: 40px;
+    font-family: 'Macondo Swash Caps', cursive;
+    font-size: 3em;
+}
+
+body {
+    font-size: 18px; /* 1em or 1rem */
+    max-width: 800px;
+    margin: auto;
+}
+
+img {
+    float: right;
+    margin: 40px;
+    border: #cca677;
+}
+
+footer {
+    clear: both;
+    display: grid;
+    background-color: #cca677;
+    height: 100px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+}
