@@ -11,6 +11,7 @@ html {
 
 #wrapper {
     background-color: #cca677;
+    border-radius: 10px;
     height: 150px;
     display: flex;
     align-items: center;
@@ -25,8 +26,9 @@ html {
 
 body {
     font-size: 18px; /* 1em or 1rem */
-    max-width: 800px;
+    max-width: 1000px;
     margin: auto;
+    font-family: 'Raleway', sans-serif;
 }
 
 img {
@@ -39,8 +41,10 @@ footer {
     clear: both;
     display: grid;
     background-color: #cca677;
-    height: 100px;
+    border-radius: 10px;
+    height: 110px;
     text-align: center;
+    font-family: 'Raleway', sans-serif;
 }
 
 h2 {
