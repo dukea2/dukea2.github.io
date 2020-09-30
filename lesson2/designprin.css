@@ -1,21 +1,18 @@
-@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
-@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
-
-html{
+html {
     box-sizing: border-box;
     font-family: sans-serif;
 }
 
-*::before, *::after{
+*::before, *::after {
     box-sizing: border-box;
 }
 
-#wrapper{
+#wrapper {
     display: grid;
     text-align: center;
 }
 
-header{
+header {
     display: grid;
     background-color: #cca677;
     text-align: center;
@@ -43,7 +40,7 @@ header{
 }
 
 body {
-    font-size: 18px; /* 1em or 1rem */
+    font-size: 18px;
 }
 
 footer {
@@ -63,11 +60,9 @@ p, span {
         margin: 0 auto;
         max-width: 1300px;
         font-size: 2vw;
-        display: grid;
     }
     
     #one {
-        grid-column: 1/2;
         grid-row: 2/3;
     }
     
@@ -79,44 +74,21 @@ p, span {
     #three {
         grid-column: span 2;
         grid-row: 3/4;
-
     }
 
     footer {
         grid-column: 1/4;
         grid-row: 3/4;
-        align-content: center;
-        text-align: center;
     }
 }
 
 @media screen and (min-width:1300px){
     #wrapper {
-        width: 80%;
-        margin: 0 auto;
         font-size: 1vw;
-        display: grid;
     }
 
-    #one {
-        grid-column: 1/2;
-        grid-row: 2/3;
-    }
-    
-    #two {
-        grid-column: 2/3;
-        grid-row: 2/3;
-    }
-    
     #three {
         grid-column: 3/4;
         grid-row: 2/3;
-    }
-
-    footer {
-        grid-column: 1/4;
-        grid-row: 3/4;
-        align-content: center;
-        text-align: center;
     }
 }
